@@ -1,0 +1,4 @@
+FROM almalinux:9 
+RUN useradd prem
+USER prem
+RUN mkdir /tmp/sample
