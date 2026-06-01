@@ -14,3 +14,5 @@ CMD ["sleep", "100"]
 
 # The first instruction should be always FROM but thre is one exception ARG can be used before FROM instruction to provide the version  
 # But before FROM instruction ARGs cannot be used as Environments ENV
+
+# Only RUN instructions will ask for ARGs when building the image
