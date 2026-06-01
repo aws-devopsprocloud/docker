@@ -6,8 +6,8 @@ USER ${username}
 # We can givethe ARG values to ENV also 
 ARG COURSE 
 ARG DURATION 
-ENV COURSE=${course}
-ENV DURATION=${duration}
+ENV COURSE=${COURSE}
+ENV DURATION=${DURATION}
 
 CMD ["sleep", "100"]
 
