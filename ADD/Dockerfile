@@ -6,3 +6,6 @@ ADD https://raw.githubusercontent.com/aws-devopsprocloud/docker/refs/heads/main/
 ADD sample.zip /tmp/
 ADD sample.tar /tmp/
 CMD ["nginx", "-g", "daemon off;"]
+
+# ADD Command will only untar the .tar files 
+# It does not unzip the zip files 
